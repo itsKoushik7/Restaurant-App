@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id="inlineing">
+        <div id="left-container">
+            <h1 id="table-conatiner-head">
+                <p id="table-head">Tables</p>
+                <input type="search" id="table-search" placeholder="Seach by Table No...">
+            </h1>
+            <div id="table-container">
+                
+            </div>
+            
+        </div>
+        <div id="main-container" >
+                <h1 id="menu-container-head">
+                    <p id="menu-name">Menu</p>
+                    <input type="search" id="item-search" placeholder="Search by Item,Course...">
+                </h1>
+                <div id="menu-container"></div> 
+        </div>
+    </div>
+    
+     <!-- Order Dialog -->
+     <div id="order-dialog">
+        <span id="window-head"></span>
+        <button id="window-close"  title="Close Window">X</button>
+       
+       
+            <table id="tab-out">
+                <tr>
+                    <td>S.No</td>
+                    <td>Item</td>
+                    <td>Price</td>
+                    <td>Manage </td>
+                    <td>Remove Item</td>
+                </tr>
+            </table>
+            <table id="tab-in">
+            </table>
+
+            <div id="final-flex">
+                <div id="total">
+
+                </div>
+           <button id="bill">
+            Close | Bill
+           </button>
+            </div>
+            
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

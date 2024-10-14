@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+    position: static;
+;
+}
+
+    #left-container{
+        position: fixed;
+        top: 0px;
+        left: -1px;
+        bottom: 0px;
+        background-color: beige;
+        width: 30%;
+        /* border-color: black;
+        border-right: 4px; */
+    }
+
+#table-conatiner-head
+    {
+        margin-top: 1em;
+    }
+#table-head{
+    text-align: center;
+}
+#table-search{
+        margin-left: 1em;
+        height: 2em;
+        width: 60%;
+    }
+#table-container{
+    
+   margin-top: 2em;
+   margin-left: 1em;
+   width: 80%;
+  
+
+}
+
+#main-container{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: beige;
+        width: 70%;
+        min-height: 100vh;
+        overflow:visible;
+
+}
+#menu-container-head{
+    position: sticky;
+    top: 0px;
+    background-color: beige;
+    z-index: 4;
+    /* padding-bottom: 10px; */
+    width: 100%;
+}
+#menu-name{
+    text-align: center;
+}
+#item-search{
+    margin-left: 1em;
+    height: 2em;
+    width: 60%;
+}
+#menu-container{
+   position: relative;
+   /* top: 150px; */
+   /* overflow: visible; */
+   width: 95%;
+   margin-left: 1em;
+   margin-top: 1em;
+   margin-bottom: 1em;
+
+}
+
+
+
+#order-dialog{
+    background-color: rgb(137, 158, 177);
+    position: absolute;
+    top: 10em;
+    left: 31%;
+    width: 50%;
+    height: 50%;
+    overflow: scroll;
+    margin: auto;
+    z-index: -1;
+   
+}
+
+#window-head {
+    background-color: powderblue;
+}
+
+#window-close{
+    color: red;
+    font-weight: 600;
+   position: relative;
+   left: 96.3%;
+   top: -77px;
+   
+}
+
+#close-btn {
+    margin-left: 20em;
+    cursor: pointer;
+}
+
+
+
+table {
+    /* border-collapse: collapse; */
+    width: 100%;
+  }
+  
+  th, td {
+    /* border: 1px solid black; */
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+  }
+
+#final-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#total {
+    margin-right: 2em;
+}
